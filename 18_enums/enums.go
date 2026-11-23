@@ -8,11 +8,11 @@ type OrderStatus string
 
 const (
 	CONFIRMED  OrderStatus = "confirmed"
-	RECEIVED               = "received"
-	SHIPPED                = "shipped"
-	DISPATCHED             = "dispatched"
-	DELIVERED              = "delivered"
-	CANCELED               = "canceled"
+	RECEIVED   OrderStatus = "received"
+	SHIPPED    OrderStatus = "shipped"
+	DISPATCHED OrderStatus = "dispatched"
+	DELIVERED  OrderStatus = "delivered"
+	CANCELED   OrderStatus = "canceled"
 )
 
 func changeOrderStatus(status OrderStatus) {
